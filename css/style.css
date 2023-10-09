@@ -1,0 +1,38 @@
+/*=========== common css strat ===========*/
+:root{
+   --first-font: 'Poppins', sans-serif;
+    --second-font: 'PT Sans', sans-serif; 
+    --third-font: 'Potta One', cursive;
+}
+h1,h2,h3,h4,h5,h6,
+ul,ol,li,{
+    margin: 0;
+}
+a,a:hover{
+  text-decoration: none;
+}
+ul,ol{
+ list-style-type: none;
+}
+body{
+     font-family:var(--first-font);
+}
+h1,h2,h3{
+    font-family: var(--second-font);
+}
+/*=========== common css End ===========*/
+
+/*=========== header css start ===========*/
+#primary_nav #menu ul li a{
+    color: #353535;
+font-family:var(--first-font);
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 200%;
+padding: 18px 20px;
+text-transform: capitalize;
+display: inline-block;
+}
+
+/*=========== header css  end ===========*/
